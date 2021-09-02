@@ -5,7 +5,7 @@ const GifsGrid = ({ categoria }) => {
     const [imagenes, setImagenes] = useState([]);
        useEffect(() => {
            getGifs();
-           //
+        // eslint-disable-next-line react-hooks/exhaustive-deps
          }, []);
 
     const getGifs = async () => {
